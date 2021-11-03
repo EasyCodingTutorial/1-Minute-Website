@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+*::selection {
+  background: #e01126;
+  color: #fff !important;
+}
+body {
+  background: #000;
+  color: #fff !important;
+}
+html::-webkit-scrollbar-track {
+  width: 10px;
+}
+html::-webkit-scrollbar-thumb {
+  background: #e01126;
+}
+
+/* Header Section Start */
+.header {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.header .img-parent {
+  position: relative;
+}
+.header img {
+  height: 100vh;
+  width: 100%;
+}
+.header .img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  opacity: 0.5;
+}
+.header .img-content {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+.header .img-content h6 {
+  font-family: "Great Vibes", cursive;
+  font-size: 6em;
+}
+.header .btn {
+  width: 300px;
+  border-radius: 15px;
+  color: #fff !important;
+  font-weight: bold;
+  background: #e01126;
+  transition: 0.5s;
+}
+.header .btn:hover {
+  letter-spacing: 5px;
+}
+/* Header Section End */
+
+/* Enjoy1 Section Start */
+.content {
+  text-align: center;
+  margin: 50px auto;
+}
+.content p {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.enjoy1 {
+  margin: 200px auto;
+}
+.enjoy1 img {
+  height: 200px;
+  width: 320px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.enjoy1 img:hover {
+  transform: scale(1.04);
+}
+/* Enjoy1 Section End */
+
+/* Enjoy2 Section Start */
+.enjoy2 {
+  margin-bottom: 200px;
+}
+.enjoy2 img {
+  cursor: pointer;
+  transition: 0.4s;
+}
+.enjoy2 img:hover {
+  transform: scale(1.03);
+}
+/* Enjoy2 Section End */
+
+/* Testimonail Section Start */
+.testi {
+  margin-bottom: 200px;
+}
+.testi .box {
+  background: #ccc;
+  color: #000 !important;
+  text-align: center;
+  border-top-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  padding: 20px;
+}
+.testi .row {
+  margin: 100px auto;
+}
+.testi .mid {
+  margin-top: 80px;
+}
+.testi .box h6 {
+  margin: 10px auto;
+  font-size: 20px;
+}
+.testi img {
+  border: 5px solid #000;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-top: -100px;
+}
+/* Testimonail Section End */
+
+/* Footer Section Start */
+footer {
+  background: #ccc;
+  padding: 20px;
+  text-align: center;
+}
+footer a {
+  font-weight: bold;
+  text-decoration: none !important;
+}
+/* Footer Section End */
